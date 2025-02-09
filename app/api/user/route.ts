@@ -1,4 +1,3 @@
-
 import { NextRequest, NextResponse } from "next/server";
 import { eq } from "drizzle-orm";
 import { db } from "@/configs/db";
@@ -16,7 +15,7 @@ export async function POST(req: NextRequest) {
         const result: any = await db.insert(usersTable).values({
             name: userName,
             email: userEmail,
-            credits: 3,
+            credits: 10,
             // @ts-ignore
         }).returning(usersTable);
 

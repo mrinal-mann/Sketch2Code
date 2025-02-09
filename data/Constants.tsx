@@ -42,7 +42,7 @@ export default {
     {
       name: "Gemini Google",
       icon: "/google.png",
-      modelName: "google/gemini-2.0-pro-exp-02-05:free",
+      modelName: "google/gemini-2.0-flash-lite-preview-02-05:free",
     },
     {
       name: "Deepkseek",
